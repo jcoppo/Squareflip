@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2EB42D2080487C004ADEC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2EB42C2080487C004ADEC2 /* AppDelegate.swift */; };
+		BC2EB42F2080487C004ADEC2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC2EB42E2080487C004ADEC2 /* GameScene.sks */; };
+		BC2EB4312080487C004ADEC2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC2EB4302080487C004ADEC2 /* Actions.sks */; };
+		BC2EB4332080487C004ADEC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2EB4322080487C004ADEC2 /* GameScene.swift */; };
+		BC2EB4352080487C004ADEC2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2EB4342080487C004ADEC2 /* GameViewController.swift */; };
+		BC2EB4382080487C004ADEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2EB4362080487C004ADEC2 /* Main.storyboard */; };
+		BC2EB43A2080487F004ADEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2EB4392080487F004ADEC2 /* Assets.xcassets */; };
+		BC2EB43D2080487F004ADEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2EB43B2080487F004ADEC2 /* LaunchScreen.storyboard */; };
+		BC2EB4482080487F004ADEC2 /* SquareflipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2EB4472080487F004ADEC2 /* SquareflipTests.swift */; };
+		BC2EB4532080487F004ADEC2 /* SquareflipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2EB4522080487F004ADEC2 /* SquareflipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC2EB4442080487F004ADEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2EB4212080487C004ADEC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2EB4282080487C004ADEC2;
+			remoteInfo = Squareflip;
+		};
+		BC2EB44F2080487F004ADEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2EB4212080487C004ADEC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2EB4282080487C004ADEC2;
+			remoteInfo = Squareflip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2EB4292080487C004ADEC2 /* Squareflip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squareflip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2EB42C2080487C004ADEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC2EB42E2080487C004ADEC2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BC2EB4302080487C004ADEC2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		BC2EB4322080487C004ADEC2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BC2EB4342080487C004ADEC2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BC2EB4372080487C004ADEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC2EB4392080487F004ADEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2EB43C2080487F004ADEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC2EB43E2080487F004ADEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2EB4432080487F004ADEC2 /* SquareflipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareflipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2EB4472080487F004ADEC2 /* SquareflipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareflipTests.swift; sourceTree = "<group>"; };
+		BC2EB4492080487F004ADEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2EB44E2080487F004ADEC2 /* SquareflipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareflipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2EB4522080487F004ADEC2 /* SquareflipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareflipUITests.swift; sourceTree = "<group>"; };
+		BC2EB4542080487F004ADEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2EB4262080487C004ADEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2EB4402080487F004ADEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2EB44B2080487F004ADEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2EB4202080487C004ADEC2 = {
+			isa = PBXGroup;
+			children = (
+				BC2EB42B2080487C004ADEC2 /* Squareflip */,
+				BC2EB4462080487F004ADEC2 /* SquareflipTests */,
+				BC2EB4512080487F004ADEC2 /* SquareflipUITests */,
+				BC2EB42A2080487C004ADEC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2EB42A2080487C004ADEC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2EB4292080487C004ADEC2 /* Squareflip.app */,
+				BC2EB4432080487F004ADEC2 /* SquareflipTests.xctest */,
+				BC2EB44E2080487F004ADEC2 /* SquareflipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2EB42B2080487C004ADEC2 /* Squareflip */ = {
+			isa = PBXGroup;
+			children = (
+				BC2EB42C2080487C004ADEC2 /* AppDelegate.swift */,
+				BC2EB42E2080487C004ADEC2 /* GameScene.sks */,
+				BC2EB4302080487C004ADEC2 /* Actions.sks */,
+				BC2EB4322080487C004ADEC2 /* GameScene.swift */,
+				BC2EB4342080487C004ADEC2 /* GameViewController.swift */,
+				BC2EB4362080487C004ADEC2 /* Main.storyboard */,
+				BC2EB4392080487F004ADEC2 /* Assets.xcassets */,
+				BC2EB43B2080487F004ADEC2 /* LaunchScreen.storyboard */,
+				BC2EB43E2080487F004ADEC2 /* Info.plist */,
+			);
+			path = Squareflip;
+			sourceTree = "<group>";
+		};
+		BC2EB4462080487F004ADEC2 /* SquareflipTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2EB4472080487F004ADEC2 /* SquareflipTests.swift */,
+				BC2EB4492080487F004ADEC2 /* Info.plist */,
+			);
+			path = SquareflipTests;
+			sourceTree = "<group>";
+		};
+		BC2EB4512080487F004ADEC2 /* SquareflipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2EB4522080487F004ADEC2 /* SquareflipUITests.swift */,
+				BC2EB4542080487F004ADEC2 /* Info.plist */,
+			);
+			path = SquareflipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2EB4282080487C004ADEC2 /* Squareflip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2EB4572080487F004ADEC2 /* Build configuration list for PBXNativeTarget "Squareflip" */;
+			buildPhases = (
+				BC2EB4252080487C004ADEC2 /* Sources */,
+				BC2EB4262080487C004ADEC2 /* Frameworks */,
+				BC2EB4272080487C004ADEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squareflip;
+			productName = Squareflip;
+			productReference = BC2EB4292080487C004ADEC2 /* Squareflip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC2EB4422080487F004ADEC2 /* SquareflipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2EB45A2080487F004ADEC2 /* Build configuration list for PBXNativeTarget "SquareflipTests" */;
+			buildPhases = (
+				BC2EB43F2080487F004ADEC2 /* Sources */,
+				BC2EB4402080487F004ADEC2 /* Frameworks */,
+				BC2EB4412080487F004ADEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2EB4452080487F004ADEC2 /* PBXTargetDependency */,
+			);
+			name = SquareflipTests;
+			productName = SquareflipTests;
+			productReference = BC2EB4432080487F004ADEC2 /* SquareflipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC2EB44D2080487F004ADEC2 /* SquareflipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2EB45D2080487F004ADEC2 /* Build configuration list for PBXNativeTarget "SquareflipUITests" */;
+			buildPhases = (
+				BC2EB44A2080487F004ADEC2 /* Sources */,
+				BC2EB44B2080487F004ADEC2 /* Frameworks */,
+				BC2EB44C2080487F004ADEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2EB4502080487F004ADEC2 /* PBXTargetDependency */,
+			);
+			name = SquareflipUITests;
+			productName = SquareflipUITests;
+			productReference = BC2EB44E2080487F004ADEC2 /* SquareflipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2EB4212080487C004ADEC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jayson Coppo";
+				TargetAttributes = {
+					BC2EB4282080487C004ADEC2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					BC2EB4422080487F004ADEC2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BC2EB4282080487C004ADEC2;
+					};
+					BC2EB44D2080487F004ADEC2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BC2EB4282080487C004ADEC2;
+					};
+				};
+			};
+			buildConfigurationList = BC2EB4242080487C004ADEC2 /* Build configuration list for PBXProject "Squareflip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2EB4202080487C004ADEC2;
+			productRefGroup = BC2EB42A2080487C004ADEC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2EB4282080487C004ADEC2 /* Squareflip */,
+				BC2EB4422080487F004ADEC2 /* SquareflipTests */,
+				BC2EB44D2080487F004ADEC2 /* SquareflipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2EB4272080487C004ADEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2EB4382080487C004ADEC2 /* Main.storyboard in Resources */,
+				BC2EB42F2080487C004ADEC2 /* GameScene.sks in Resources */,
+				BC2EB43A2080487F004ADEC2 /* Assets.xcassets in Resources */,
+				BC2EB43D2080487F004ADEC2 /* LaunchScreen.storyboard in Resources */,
+				BC2EB4312080487C004ADEC2 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2EB4412080487F004ADEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2EB44C2080487F004ADEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2EB4252080487C004ADEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2EB4332080487C004ADEC2 /* GameScene.swift in Sources */,
+				BC2EB4352080487C004ADEC2 /* GameViewController.swift in Sources */,
+				BC2EB42D2080487C004ADEC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2EB43F2080487F004ADEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2EB4482080487F004ADEC2 /* SquareflipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2EB44A2080487F004ADEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2EB4532080487F004ADEC2 /* SquareflipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC2EB4452080487F004ADEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2EB4282080487C004ADEC2 /* Squareflip */;
+			targetProxy = BC2EB4442080487F004ADEC2 /* PBXContainerItemProxy */;
+		};
+		BC2EB4502080487F004ADEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2EB4282080487C004ADEC2 /* Squareflip */;
+			targetProxy = BC2EB44F2080487F004ADEC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC2EB4362080487C004ADEC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2EB4372080487C004ADEC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC2EB43B2080487F004ADEC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2EB43C2080487F004ADEC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2EB4552080487F004ADEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC2EB4562080487F004ADEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC2EB4582080487F004ADEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A8STS47V2;
+				INFOPLIST_FILE = Squareflip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaysoncoppo.Squareflip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC2EB4592080487F004ADEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A8STS47V2;
+				INFOPLIST_FILE = Squareflip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaysoncoppo.Squareflip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC2EB45B2080487F004ADEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A8STS47V2;
+				INFOPLIST_FILE = SquareflipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaysoncoppo.SquareflipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squareflip.app/Squareflip";
+			};
+			name = Debug;
+		};
+		BC2EB45C2080487F004ADEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A8STS47V2;
+				INFOPLIST_FILE = SquareflipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaysoncoppo.SquareflipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squareflip.app/Squareflip";
+			};
+			name = Release;
+		};
+		BC2EB45E2080487F004ADEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A8STS47V2;
+				INFOPLIST_FILE = SquareflipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaysoncoppo.SquareflipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Squareflip;
+			};
+			name = Debug;
+		};
+		BC2EB45F2080487F004ADEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A8STS47V2;
+				INFOPLIST_FILE = SquareflipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaysoncoppo.SquareflipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Squareflip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2EB4242080487C004ADEC2 /* Build configuration list for PBXProject "Squareflip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2EB4552080487F004ADEC2 /* Debug */,
+				BC2EB4562080487F004ADEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2EB4572080487F004ADEC2 /* Build configuration list for PBXNativeTarget "Squareflip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2EB4582080487F004ADEC2 /* Debug */,
+				BC2EB4592080487F004ADEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2EB45A2080487F004ADEC2 /* Build configuration list for PBXNativeTarget "SquareflipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2EB45B2080487F004ADEC2 /* Debug */,
+				BC2EB45C2080487F004ADEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2EB45D2080487F004ADEC2 /* Build configuration list for PBXNativeTarget "SquareflipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2EB45E2080487F004ADEC2 /* Debug */,
+				BC2EB45F2080487F004ADEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2EB4212080487C004ADEC2 /* Project object */;
+}
